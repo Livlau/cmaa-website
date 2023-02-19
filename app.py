@@ -27,6 +27,9 @@ JOBS = [
 def hello_cmaa():
   return render_template("home.html", jobs=JOBS)
 
+@app.route("/about")
+def about_us():
+  return render_template("about.html")
 
 @app.route("/api/jobs")
 def jobs_list():
