@@ -1,31 +1,14 @@
 from flask import Flask, render_template, jsonify
+from database import jobs_from_db
+
 
 app = Flask(__name__)
-
-JOBS = [
-  {
-    'id': 1,
-    'title': 'Director of Programs',
-    'location': 'Lowell, MA'
-  },
-  {
-    'id': 2,
-    'title': 'Executive Assistant',
-    'location': 'Remote',
-    'salary': '$40,000 - $50,000'
-  },
-  {
-    'id': 3,
-    'title': 'Monorom Assistant',
-    'location': 'MA, USA',
-    'salary': '$30,000 - $40,000'
-  }
-]
 
 
 @app.route("/")
 def hello_cmaa():
-  return render_template("home.html", jobs=JOBS)
+  jobs = jobs_from_db()
+  return render_template("home.html", jobs=jobs)
 
 @app.route("/about")
 def about_us():
@@ -33,7 +16,8 @@ def about_us():
 
 @app.route("/api/jobs")
 def jobs_list():
-  return jsonify(JOBS)
+  jobs = jobs_from_db()
+  return jsonify(jobs)
 
 
 if __name__ == '__main__':
