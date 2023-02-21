@@ -12,13 +12,14 @@
     {% include 'navbar.html' %}
     <div class="container">
       <h1 class="text-center">Not Active Website</h1>
+      <div class="d-flex align-items-end justify-content-end">
+      <button type="button" class="btn btn-success btn-lg text-right">Donate</button>
+    </div>
       <img class="img-fluid" src="https://cmaa-website.livl4.repl.co/static/CMAA-logo.jpeg" height="220">  
     </div>
-    <div class="text-center">
-      <button type="button" class="btn btn-primary btn-lg">Donate</button>
-    </div>
-    <div>
-      <main class="container-fluid py-5 text-center">
+    
+    <div class="container text-center">
+      <main>
           {% block main %}{% endblock %}
       </main>
     </div>
