@@ -26,6 +26,26 @@ def civic_engagement():
   return render_template("civic-engagement.html")
 
 
+@app.route("/esol")
+def esol():
+  return render_template("esol.html")
+
+
+@app.route("/khmer-class")
+def khmer_class():
+  return render_template("khmer-class.html")
+
+
+@app.route("/monorom-program")
+def monorom_program():
+  return render_template("monorom-program.html")
+
+
+@app.route("/translation-services")
+def translation_services():
+  return render_template("translation-services.html")
+
+
 @app.route("/api/jobs")
 def jobs_list():
   jobs = jobs_from_db()
