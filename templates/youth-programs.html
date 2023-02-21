@@ -1,0 +1,43 @@
+{% extends "layout.html" %}
+
+{% block title %}
+   YOUTH PROGRAMS
+{% endblock %}
+
+{% block main %}
+<div class="container text-center">
+  <h1 class="text-start pt-5 pb-3">Youth Programs</h1>
+  <div>
+    <ul class="text-start">
+      <li>Over 100 students enrolled in our Rising Stars Summer Program</li>
+      <li>35 youth between the ages of 7-14 are part of our Cambodian Cultural After School Program</li>
+      <li>15 high school students are participating in our Young Professionals Leadership Program</li>
+    </ul>
+  </div>
+  <div>
+    {% include 'youth-programs/youth-programs-carousel.html'%}
+  </div>
+  <div>
+    <p class="text-start">
+      <br><b>For more information, please contact:</b>      
+      <br>  Ida Borin
+      <br>  Youth Program Coordinator
+      <br>  Phone: 978-454-6200 x1017
+      <br>  Email: iborin@cmaalowell.org
+    </p>
+  </div>
+
+  <div>
+    <p class="text-start">
+      <br>  Kennis Yin-Mor
+      <br>  Communications and Development Assistant
+      <br>  Youth Program Assistant Coordinator
+      <br>  Phone: 978-454-6200 x1018
+      <br>  Email: kennisyin@cmaalowell.org
+    </p>
+  </div>  
+  
+</div>
+{% endblock %}
+
+  

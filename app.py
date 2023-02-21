@@ -70,6 +70,25 @@ def walk_in_services_other_services():
   return render_template("walk-in-services/other-services.html")
 
 
+@app.route("/youth-programs")
+def youth_programs():
+  return render_template("youth-programs.html")
+
+@app.route("/youth-programs/cambodian-after-school")
+def youth_programs_cambodian_after_school():
+  return render_template("youth-programs/cambodian-after-school.html")
+
+
+@app.route("/youth-programs/rising-stars-summer-program")
+def youth_programs_rising_stars_summer_program():
+  return render_template("youth-programs/rising-stars-summer-programl.html")
+
+
+@app.route("/youth-programs/young-professional-leadership-program")
+def youth_programs_young_professional_leadership_program():
+  return render_template("youth-programs/young-professional-leadership-program.html")
+
+
 @app.route("/api/jobs")
 def jobs_list():
   jobs = jobs_from_db()
