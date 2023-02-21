@@ -60,6 +60,16 @@ def walk_in_services_citizenship_class():
 def walk_in_services_fthb_training():
   return render_template("walk-in-services/first-time-home-buyer-training.html")
 
+
+@app.route("/walk-in-services/covid-19-resources")
+def walk_in_services_covid_19_resources():
+  return render_template("walk-in-services/covid-19-resources.html")
+
+@app.route("/walk-in-services/other-services")
+def walk_in_services_other_services():
+  return render_template("walk-in-services/other-services.html")
+
+
 @app.route("/api/jobs")
 def jobs_list():
   jobs = jobs_from_db()
