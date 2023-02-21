@@ -81,7 +81,7 @@ def youth_programs_cambodian_after_school():
 
 @app.route("/youth-programs/rising-stars-summer-program")
 def youth_programs_rising_stars_summer_program():
-  return render_template("youth-programs/rising-stars-summer-programl.html")
+  return render_template("youth-programs/rising-stars-summer-program.html")
 
 
 @app.route("/youth-programs/young-professional-leadership-program")
