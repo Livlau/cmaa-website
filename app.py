@@ -46,6 +46,20 @@ def translation_services():
   return render_template("translation-services.html")
 
 
+@app.route("/walk-in-services")
+def walk_in_services():
+  return render_template("walk-in-services.html") 
+
+
+@app.route("/walk-in-services/citizenship-class")
+def walk_in_services_citizenship_class():
+  return render_template("walk-in-services/us-citizenship-class.html") 
+
+
+@app.route("/walk-in-services/first-time-home-buyer-training")
+def walk_in_services_fthb_training():
+  return render_template("walk-in-services/first-time-home-buyer-training.html")
+
 @app.route("/api/jobs")
 def jobs_list():
   jobs = jobs_from_db()
