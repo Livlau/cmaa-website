@@ -46,75 +46,75 @@ def contact():
   return render_template("about/contact.html")
 
 
-@app.route("/programs")
+@app.route("/programs-services")
 def programs_services():
   return render_template("programs.html")
 
 
-@app.route("/civic-engagement")
+@app.route("/programs-services/civic-engagement")
 def civic_engagement():
   return render_template("civic-engagement.html")
 
 
-@app.route("/esol")
+@app.route("/programs-services/esol-class")
 def esol():
   return render_template("esol.html")
 
 
-@app.route("/khmer-class")
+@app.route("/programs-services/khmer-class")
 def khmer_class():
   return render_template("khmer-class.html")
 
 
-@app.route("/monorom-program")
+@app.route("/programs-services/monorom-program")
 def monorom_program():
   return render_template("monorom-program.html")
 
 
-@app.route("/translation-services")
+@app.route("/programs-services/translation-services")
 def translation_services():
   return render_template("translation-services.html")
 
 
-@app.route("/walk-in-services")
+@app.route("/programs-services/walk-in-services")
 def walk_in_services():
   return render_template("walk-in-services.html") 
 
 
-@app.route("/walk-in-services/citizenship-class")
+@app.route("/programs-services/walk-in-services/citizenship-class")
 def walk_in_services_citizenship_class():
   return render_template("walk-in-services/us-citizenship-class.html") 
 
 
-@app.route("/walk-in-services/first-time-home-buyer-training")
+@app.route("/programs-services/walk-in-services/first-time-home-buyer-training")
 def walk_in_services_fthb_training():
   return render_template("walk-in-services/first-time-home-buyer-training.html")
 
 
-@app.route("/walk-in-services/covid-19-resources")
+@app.route("/programs-services/walk-in-services/covid-19-resources")
 def walk_in_services_covid_19_resources():
   return render_template("walk-in-services/covid-19-resources.html")
 
-@app.route("/walk-in-services/other-services")
+@app.route("/programs-services/walk-in-services/other-services")
 def walk_in_services_other_services():
   return render_template("walk-in-services/other-services.html")
 
 
-@app.route("/youth-programs")
+@app.route("/programs-services/youth-programs")
 def youth_programs():
   return render_template("youth-programs.html")
 
-@app.route("/youth-programs/cambodian-after-school")
+@app.route("/programs-services/youth-programs/cambodian-after-school")
 def youth_programs_cambodian_after_school():
   return render_template("youth-programs/cambodian-after-school.html")
 
 
-@app.route("/youth-programs/rising-stars-summer-program")
+@app.route("/programs-services/youth-programs/rising-stars-summer-program")
 def youth_programs_rising_stars_summer_program():
   return render_template("youth-programs/rising-stars-summer-program.html")
 
 
-@app.route("/youth-programs/young-professional-leadership-program")
+@app.route("/programs-services/youth-programs/young-professional-leadership-program")
 def youth_programs_young_professional_leadership_program():
   return render_template("youth-programs/young-professional-leadership-program.html")
 
