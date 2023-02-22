@@ -138,9 +138,9 @@ def get_involved_donate():
   return render_template("get-involved/donate.html")
 
 
-@app.route("/get-involved/volunteers")
+@app.route("/get-involved/volunteer")
 def volunteers():
-  return render_template("get-involved/volunteers.html")
+  return render_template("get-involved/volunteer.html")
 
 
 @app.route("/api/jobs")
