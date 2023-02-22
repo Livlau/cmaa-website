@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 
 @app.route("/")
-def hello_cmaa():
+def home():
   jobs = jobs_from_db()
   return render_template("home.html", jobs=jobs)
 
@@ -27,7 +27,8 @@ def board_of_directors():
 
 @app.route("/about/careers")
 def careers():
-  return render_template("about/jobs.html")
+  jobs = jobs_from_db()
+  return render_template("about/jobs.html", jobs=jobs)
 
 
 @app.route("/about/financials")
