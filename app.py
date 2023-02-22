@@ -15,6 +15,12 @@ def hello_cmaa():
 def about_us():
   return render_template("about.html")
 
+@app.route("/about/our-team")
+def our_team():
+  return render_template("about/our-team.html")
+
+
+
 
 @app.route("/programs")
 def programs_services():
