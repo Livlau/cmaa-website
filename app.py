@@ -11,7 +11,7 @@ def hello_cmaa():
   return render_template("home.html", jobs=jobs)
 
 
-@app.route("/about")
+@app.route("/about/our-story")
 def about_us():
   return render_template("about.html")
 
@@ -24,6 +24,25 @@ def our_team():
 def board_of_directors():
   return render_template("about/board-of-directors.html")
 
+
+@app.route("/about/careers")
+def careers():
+  return render_template("about/jobs.html")
+
+
+@app.route("/about/financials")
+def financials():
+  return render_template("about/financials.html")
+
+
+@app.route("/about/our-partners")
+def our_partners():
+  return render_template("about/our-partners.html")
+
+
+@app.route("/about/contact")
+def contact():
+  return render_template("about/contact.html")
 
 
 @app.route("/programs")
@@ -97,6 +116,31 @@ def youth_programs_rising_stars_summer_program():
 @app.route("/youth-programs/young-professional-leadership-program")
 def youth_programs_young_professional_leadership_program():
   return render_template("youth-programs/young-professional-leadership-program.html")
+
+
+@app.route("/news-events/news")
+def news():
+  return render_template("news-events/news.html")
+
+
+@app.route("/news-events/events")
+def events():
+  return render_template("news-events/events.html")
+
+
+@app.route("/get-involved/corporate-sponsors")
+def corporate_sponsors():
+  return render_template("get-involved/corporate-sponsors.html")
+
+
+@app.route("/get-involved/donate")
+def get_involved_donate():
+  return render_template("get-involved/donate.html")
+
+
+@app.route("/get-involved/volunteers")
+def volunteers():
+  return render_template("get-involved/volunteers.html")
 
 
 @app.route("/api/jobs")
