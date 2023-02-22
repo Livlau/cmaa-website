@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+
+{% block title %}
+   CAREERS
+{% endblock %}
+
+{% block main %}
+<div>
+    <h2 class="text-center my-5">Job Openings</h2>
+        <div>
+          {% for job in jobs %}
+            {% include 'about/jobs.html' %}
+          {% endfor %}
+        </div>
+<div>
+
+{% endblock %}
