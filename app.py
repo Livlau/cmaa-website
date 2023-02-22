@@ -20,6 +20,10 @@ def our_team():
   return render_template("about/our-team.html")
 
 
+@app.route("/about/board-of-directors")
+def board_of_directors():
+  return render_template("about/board-of-directors.html")
+
 
 
 @app.route("/programs")
