@@ -77,45 +77,45 @@ def translation_services():
 
 @app.route("/programs-services/walk-in-services")
 def walk_in_services():
-  return render_template("walk-in-services.html") 
+  return render_template("programs-services/walk-in-services/walk-in-services.html") 
 
 
 @app.route("/programs-services/walk-in-services/citizenship-class")
 def walk_in_services_citizenship_class():
-  return render_template("walk-in-services/us-citizenship-class.html") 
+  return render_template("programs-services/walk-in-services/us-citizenship-class.html") 
 
 
 @app.route("/programs-services/walk-in-services/first-time-home-buyer-training")
 def walk_in_services_fthb_training():
-  return render_template("walk-in-services/first-time-home-buyer-training.html")
+  return render_template("programs-services/walk-in-services/first-time-home-buyer-training.html")
 
 
 @app.route("/programs-services/walk-in-services/covid-19-resources")
 def walk_in_services_covid_19_resources():
-  return render_template("walk-in-services/covid-19-resources.html")
+  return render_template("programs-services/walk-in-services/covid-19-resources.html")
 
 @app.route("/programs-services/walk-in-services/other-services")
 def walk_in_services_other_services():
-  return render_template("walk-in-services/other-services.html")
+  return render_template("programs-services/walk-in-services/other-services.html")
 
 
 @app.route("/programs-services/youth-programs")
 def youth_programs():
-  return render_template("youth-programs.html")
+  return render_template("programs-services/youth-programs/youth-programs.html")
 
 @app.route("/programs-services/youth-programs/cambodian-after-school")
 def youth_programs_cambodian_after_school():
-  return render_template("youth-programs/cambodian-after-school.html")
+  return render_template("programs-services/youth-programs/cambodian-after-school.html")
 
 
 @app.route("/programs-services/youth-programs/rising-stars-summer-program")
 def youth_programs_rising_stars_summer_program():
-  return render_template("youth-programs/rising-stars-summer-program.html")
+  return render_template("programs-services/youth-programs/rising-stars-summer-program.html")
 
 
 @app.route("/programs-services/youth-programs/young-professional-leadership-program")
 def youth_programs_young_professional_leadership_program():
-  return render_template("youth-programs/young-professional-leadership-program.html")
+  return render_template("programs-services/youth-programs/young-professional-leadership-program.html")
 
 
 @app.route("/news-events/news")
