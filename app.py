@@ -128,6 +128,11 @@ def events():
   return render_template("news-events/events.html")
 
 
+@app.route("/news-events/social-media-pages")
+def social_media_pages():
+  return render_template("news-events/social-media-pages.html")
+
+
 @app.route("/get-involved/corporate-sponsors")
 def corporate_sponsors():
   return render_template("get-involved/corporate-sponsors.html")
