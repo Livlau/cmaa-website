@@ -128,6 +128,11 @@ def events():
   return render_template("news-events/events.html")
 
 
+@app.route("/news-events/khmer-new-year/welcoming-angel-ceremony")
+def events_khmer_new_year():
+  return render_template("news-events/khmer-new-year/welcoming-angel-ceremony.html")
+
+
 @app.route("/news-events/social-media-pages")
 def social_media_pages():
   return render_template("news-events/social-media-pages.html")
