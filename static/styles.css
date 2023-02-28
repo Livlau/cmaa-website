@@ -46,7 +46,12 @@ nav .navbar-brand
 }
 
 
-
+/* our team  */
+.card-text {
+    font-size: .50rem;
+    line-height: 1.125rem;
+    letter-spacing: 0rem;
+}
 
 /* Colors for brand */
 /* nav .navbar-brand .blue
