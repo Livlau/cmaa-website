@@ -47,11 +47,12 @@ nav .navbar-brand
 
 
 /* our team  */
-.card-text {
-    font-size: .50rem;
-    line-height: 1.125rem;
-    letter-spacing: 0rem;
-}
+/* .card-text {
+    font-size:19px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+} */
 
 /* Colors for brand */
 /* nav .navbar-brand .blue

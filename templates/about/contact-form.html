@@ -1,0 +1,33 @@
+<div class="container shadow-sm my-5">
+  <span>Please fill in the info below.
+  <p>NOTE: Fields with an asterisk * are required.</p></span>
+
+<form class="row " method="post" enctype="multipart/form-data">
+  <div class="col-md-6 form-group py-3">
+    <label for="first-name">First Name*</label>
+    <input type="text" name="firstname" id="first-name" class="form-control" placeholder="First Name" maxlength="50" required>
+  </div>
+  <div class="col-md-6 form-group py-3">
+    <label for="last-name">Last Name*</label>
+    <input type="text" name="lastname" id="last-name" class="form-control" placeholder="Last Name" maxlength="50" required>
+  </div>
+  <div class="col-md-8 form-group py-3">
+    <label for="form-email">Email Address*</label>
+    <input type="email" name="form-email" id="form-email"class="form-control" placeholder="name@email.com" maxlength="100" required>
+  </div>
+  <div class="col-md-4 form-group py-3">
+    <label for="form-phone">Phone Number (Optional)</label>
+    <input type="tel" name="form-phone" id="form-phone" class="form-control" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" size="20"
+  minlength="9" maxlength="14">
+  </div>
+  <div class="col-md-12 form-group py-3">
+    <label for="textarea">Message*</label>
+    <textarea class="form-control" rows="5" cols="10"
+  maxlength="500" required></textarea>
+  </div>
+  <div class="col-md-12 form-group py-3">
+    <button type="submit" class="btn btn-outline-primary">Submit</button>
+  </div>
+</form>
+
+</div>

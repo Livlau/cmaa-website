@@ -5,15 +5,18 @@
 {% endblock %}
 
 {% block main %}
-<div class="container">
-  <h1>CONTACT</h1>
-  <ul>
-    <li><a href="#">contact 1</a></li>
-    <li><a href="#">contact 2</a></li>
+  <div class="container">
+    <h1>Contact us</h1>
+    <span>
+      Phone: 978-454-6200
+      <p>Email: <a href="mailto:info@cmaalowell.org">info@cmaalowell.org</a></p>
+    </span>
+  </div>
+  <div class="container">
+      {% include 'about/contact-form.html' %}
+  </div>
     
-  </ul>
   
-  
-</div>
+
 
 {% endblock %}
