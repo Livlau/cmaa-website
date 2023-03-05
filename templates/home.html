@@ -8,11 +8,20 @@
       
   <div class="container">
     <div class="container text-start my-5 py-3">
-      <h1>Our mission</h1>
-      <p class="text-start mt-3 mb-5 py-3">
-        Improve the quality of life for Cambodian Americans and other minorities and economically disadvantaged persons in Lowell through educational, cultural, economic and social programs. 
-        <br><br>សមាគមខ្មែរ លើកស្ទួយគុណភាពជីវិតរបស់ប្រជាជនខ្មែរអាមេរិកាំង រួមទាំងជនជាតិភាគតិចផ្សេងទៀត និងអ្នកដែលមានវិបត្តិសេដ្ឋកិច្ចនៅក្នុងទីក្រុងឡូវែលអោយកាន់តែប្រសើរឡើង តាមរយៈកម្មវិធីអប់រំ វប្បធម៌ សេដ្ឋកិច្ច និងសង្គម។
-      </p>
+      <div class="row">
+        
+          <div class="col-sm-12 col-md-6 col-lg-6">
+            <img src="static/cmaa-flag-rising-pic2.jpeg" class="img-fluid rounded" alt="cmaa flag rising" class="w-100">
+            
+          </div>
+        <div class="col-sm-12 col-md-6 col-lg-6">
+          <h1>Our mission</h1>
+          <p class="text-start mt-3 mb-5 py-3">
+            Improve the quality of life for Cambodian Americans and other minorities and economically disadvantaged persons in Lowell through educational, cultural, economic and social programs. 
+            <br><br>សមាគមខ្មែរ លើកស្ទួយគុណភាពជីវិតរបស់ប្រជាជនខ្មែរអាមេរិកាំង រួមទាំងជនជាតិភាគតិចផ្សេងទៀត និងអ្នកដែលមានវិបត្តិសេដ្ឋកិច្ចនៅក្នុងទីក្រុងឡូវែលអោយកាន់តែប្រសើរឡើង តាមរយៈកម្មវិធីអប់រំ វប្បធម៌ សេដ្ឋកិច្ច និងសង្គម។
+          </p>
+          </div>
+        </div>
     </div >
   </div>
   <div class="py-3">
@@ -20,17 +29,32 @@
   </div>
         
 
-  <div class="text-center bg-primary bg-gradient text-black py-auto my-3">
+  <div class="text-center py-auto my-3">
     {% include 'programs.html' %}
   </div>
 
 
     <div class="container">
+      <h1 class="border-bottom pt-3">Lastest News</h1>
       <div class="row pt-5">
-        <div class="col-12 col-md-6 col-lg-8">
+<!--         col 1 -->
+        <div class="col-sm-12 col-md-6 col-lg-3 pt-3">
+          {% include 'blogs.html' %}
           
         </div>
-        <div class="col-12 col-md-6 col-lg-4 text-end">
+<!--         col 2 -->
+        <div class="col-sm-12 col-md-6 col-lg-4 pt-3">
+          <div class="card text-center">
+          <img class="card-img-top" src="static/sothea-boston-50.jpeg" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title text-start">Sothea Chiemruom</h4>
+            <p class="card-text text-start">Congratulations to CMAA Executive Director Sothea Chiemruom on being recognized as one of Boston’s 50 Most Influential Asian-American Pacific Islanders. We also want to congratulate Dr. Julie Chen, Chancellor of UMASS Lowell, and Mayor Sokhary Chau.</p>
+            <a href="https://www.getkonnected.com/market" target="_blank" class="btn btn-primary float-center">Read more</a>
+          </div>
+          </div>
+        </div>
+<!--         col 3 -->
+        <div class="col-sm-12 col-md-6 col-lg-4 pt-3">
         
             {% include 'facebook.html' %}
         </div>
