@@ -6,6 +6,11 @@ nav .navbar-brand
     
 }
 
+/* 
+#myCarousel {
+  background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%);
+} */
+
 /* social media icons  */
 .fa {
   padding: 10px;
@@ -46,6 +51,9 @@ nav .navbar-brand
 }
 
 
+:root {
+  --bs-body-bg: red;
+}
 
 
 
