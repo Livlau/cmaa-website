@@ -6,10 +6,47 @@ nav .navbar-brand
     
 }
 
-/* 
-#myCarousel {
+/* section  */
+
+section {
+  
+    height: 100vh;
+/*   text style  */
+    color: black;
+    display: flex;
+    text-decoration: none;
+    font-size: 1.2em;
+  
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+/*   background style */
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+}
+
+#home {
+    background-image: linear-gradient(rgba(255,255,255,0.90),rgba(255,255,255,0.90)), url("cmaa-flag-rising-pic2.jpeg");
+}
+
+#carouselAutoplaying {
+  background-image: linear-gradient(rgba(255,255,255,0.85),rgba(255,255,255,0.85)), url("cmaa-flag-rising-2022.jpeg");
+}
+
+#programs {
   background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%);
+}
+
+/* #funders {
+  background-image: linear-gradient(to left, #74ebd5 0%, #9face6 100%);
 } */
+
+#funders h2 {
+  color: black;
+}
 
 /* social media icons  */
 .fa {
