@@ -28,13 +28,18 @@ section {
     background-attachment: fixed; 
 }
 
-#home {
+@media only screen and (min-width: 200px) {
+  #home {
     background-image: linear-gradient(rgba(255,255,255,0.90),rgba(255,255,255,0.90)), url("cmaa-flag-rising-pic2.jpeg");
+  }
 }
 
-#carouselAutoplaying {
+@media only screen and (min-width: 200px) {
+  #carouselAutoplaying {
   background-image: linear-gradient(rgba(255,255,255,0.85),rgba(255,255,255,0.85)), url("cmaa-flag-rising-2022.jpeg");
+  }
 }
+
 
 #programs {
   background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%);
