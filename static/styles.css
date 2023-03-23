@@ -10,7 +10,7 @@ nav .navbar-brand
 
 section {
   
-    height: 100vh;
+    height: 90vh;
 /*   text style  */
     color: black;
     display: flex;
@@ -28,26 +28,31 @@ section {
     background-attachment: fixed; 
 }
 
-@media only screen and (min-width: 200px) {
+/* @media only screen and (min-width: 200px) {
   #home {
     background-image: linear-gradient(rgba(255,255,255,0.90),rgba(255,255,255,0.90)), url("cmaa-flag-rising-pic2.jpeg");
+     background-size: cover;
   }
-}
+} */
 
 @media only screen and (min-width: 200px) {
   #carouselAutoplaying {
   background-image: linear-gradient(rgba(255,255,255,0.85),rgba(255,255,255,0.85)), url("cmaa-flag-rising-2022.jpeg");
+     background-size: cover;
   }
 }
 
 
-#programs {
+/* #programs {
+  
   background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%);
-}
-
-/* #funders {
-  background-image: linear-gradient(to left, #74ebd5 0%, #9face6 100%);
 } */
+
+
+#funders {
+
+  background-image: linear-gradient(to left, #74ebd5 0%, #9face6 100%);
+}
 
 #funders h2 {
   color: black;
@@ -128,10 +133,18 @@ nav .navbar-brand .green
 }
  */
 
+/* #hero-img {
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+} */
+
+#mission {
+  color: #0a2540;
+}
+
 /* carousel-items */
 .card {
   border: none;
-  border-radius: 0;
+  border-radius: 10;
   box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
 }
 .carousel-inner {
