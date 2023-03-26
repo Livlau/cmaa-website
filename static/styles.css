@@ -1,11 +1,42 @@
 /* Size for brand */
-nav .navbar-brand
+
+/* nav 
 {
-    font-size: xx-large;
+    font-size: 1em; 
+    font-weight: 400;
     color: #537fbe;
-    
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  
+} */
+/* .nav-item:hover {
+  color: blue;
+} */
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; /* remove the gap so it doesn't close */
 }
 
+
+ul.navbar-nav a.nav-link:hover {
+/*   background-color: linear-gradient(120deg, #0d6efd 0%, #0d6eef 100%);
+   text-decoration: underline;  */
+  display: block;
+  color: #0275d8;
+  font-weight: bold;
+}
+
+/* ul.dropdown-menu a.dropdown-item:active {
+ 
+    background-color: #FFFF00;
+    color: #FFC0CB;
+
+} */
+
+ul.dropdown-menu a.dropdown-item:hover {
+  background: #0275d8;
+  color: white;
+
+}
 /* section  */
 
 section {
@@ -30,6 +61,7 @@ section {
 
 /* @media only screen and (min-width: 200px) {
   #home {
+    background: linear-gradient(140deg,rgba(240,247,255,.4) 50%,rgba(89,124,255,.3)) padding-box,#f0f7ff;
     background-image: linear-gradient(rgba(255,255,255,0.90),rgba(255,255,255,0.90)), url("cmaa-flag-rising-pic2.jpeg");
      background-size: cover;
   }
@@ -44,19 +76,24 @@ section {
 
 
 /* #programs {
+      color: #2974FF;
   
   background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%);
 } */
 
 
-#funders {
-
+/* #funders {
+    color: #2974FF;
   background-image: linear-gradient(to left, #74ebd5 0%, #9face6 100%);
-}
+  
+} */
 
-#funders h2 {
-  color: black;
-}
+/* #latest-news {
+      color: #2974FF;
+} */
+/* h2 #funders {
+  color: #2974FF;
+} */
 
 /* social media icons  */
 .fa {
@@ -145,7 +182,8 @@ nav .navbar-brand .green
 .card {
   border: none;
   border-radius: 10;
-  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+  box-shadow: 2px 2px 8px 2px rgba(22, 22, 26, 0.18);
+/*   background: rgba(59, 130, 246, 0.025); */
 }
 .carousel-inner {
   padding: 1em;
