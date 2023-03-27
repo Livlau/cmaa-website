@@ -11,8 +11,8 @@ def home():
 
 
 @app.route("/about/our-story")
-def about_us():
-  return render_template("about.html")
+def our_story():
+  return render_template("about/our-story.html")
 
 @app.route("/about/our-team")
 def our_team():
