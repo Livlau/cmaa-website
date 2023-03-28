@@ -59,13 +59,13 @@ section {
     background-attachment: fixed; 
 }
 
-/* @media only screen and (min-width: 200px) {
+/* @media only screen and (min-width: 200px) { */
   #home {
     background: linear-gradient(140deg,rgba(240,247,255,.4) 50%,rgba(89,124,255,.3)) padding-box,#f0f7ff;
     background-image: linear-gradient(rgba(255,255,255,0.90),rgba(255,255,255,0.90)), url("cmaa-flag-rising-pic2.jpeg");
      background-size: cover;
   }
-} */
+/* } */
 
 @media (min-width: 300px) {
   #carouselAutoplaying {
@@ -176,6 +176,7 @@ nav .navbar-brand .green
 
 #mission {
   color: #0a2540;
+  font-size: 1.2em;
 }
 
 /* carousel-items */
@@ -262,6 +263,7 @@ h5 {
   background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
   color: white;
 } */
+
 
 ul.no-bullets {
   list-style-type: none;
