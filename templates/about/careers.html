@@ -5,13 +5,38 @@
 {% endblock %}
 
 {% block main %}
-<div>
+<div class="container pb-5">
     <h2 class="text-center my-5">Job Openings</h2>
-        <div>
-          {% for job in jobs %}
-            {% include 'about/jobs.html' %}
-          {% endfor %}
-        </div>
+
+<!--  job 1-->
+  <div class="row border-bottom py-3"> 
+    <div class="col-9"> 
+      <h4 class="text-muted">Director of Programs</h4>
+    </div>
+    <div class="col-3">
+      <a href="/static/about/careers/director-of-programs.pdf"><button type="button" class="btn btn-outline-primary float-end">Apply</button>
+    </div></a>
+  </div>
+<!-- job 2 -->
+  <div class="row border-bottom py-3"> 
+    <div class="col-9"> 
+      <h4 class="text-muted">Executive Assistant</h4>
+    </div>
+    <div class="col-3">
+      <a href="/static/about/careers/executive-assistant.pdf"><button type="button" class="btn btn-outline-primary float-end">Apply</button>
+    </div></a>
+  </div>
+<!-- job 3   -->
+ <div class="row border-bottom py-3"> 
+    <div class="col-9"> 
+      <h4 class="text-muted">Commonwealth Corps Youth Program Specialist</h4>
+    </div>
+    <div class="col-3">
+      <a href="/static/about/careers/commonwealth-corps.pdf"><button type="button" class="btn btn-outline-primary float-end">Apply</button>
+    </div></a>
+  </div>
+
+  
 <div>
 
 {% endblock %}

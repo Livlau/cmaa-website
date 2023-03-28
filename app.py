@@ -26,8 +26,8 @@ def board_of_directors():
 
 @app.route("/about/careers")
 def careers():
-  jobs = jobs_from_db()
-  return render_template("about/careers.html", jobs=jobs)
+  # jobs = jobs_from_db()
+  return render_template("about/careers.html")
 
 
 @app.route("/about/financials")
