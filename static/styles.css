@@ -270,3 +270,19 @@ ul.no-bullets {
   margin: 0;
   padding: 0;
 }
+
+/* iframe */
+.embed-responsive {
+  overflow: hidden;
+  padding-top: 56.25%; /* 16:9*/
+  position: relative;
+}
+
+.embed-responsive-item {
+   border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
+}
