@@ -22,7 +22,7 @@ ul.navbar-nav a.nav-link:hover {
    text-decoration: underline;  */
   display: block;
   color: #0275d8;
-  font-weight: bold;
+/*   font-weight: bold; */
 }
 
 /* ul.dropdown-menu a.dropdown-item:active {
@@ -82,11 +82,12 @@ section {
 } */
 
 
-/* #funders {
-    color: #2974FF;
-  background-image: linear-gradient(to left, #74ebd5 0%, #9face6 100%);
+#funders {
+/*     color: #2974FF; */
   
-} */
+  background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%);
+  
+}
 
 /* #latest-news {
       color: #2974FF;
@@ -286,3 +287,4 @@ ul.no-bullets {
    top: 0;
    width: 100%;
 }
+
