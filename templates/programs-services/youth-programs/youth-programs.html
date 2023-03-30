@@ -5,16 +5,22 @@
 {% endblock %}
 
 {% block main %}
-<div class="container text-center pb-5">
-  <h1 class="text-start pt-5 pb-3">Youth Programs</h1>
-  <div>
-    <ul class="text-start">
-      <li>Over 100 students enrolled in our Rising Stars Summer Program</li>
-      <li>35 youth between the ages of 7-14 are part of our Cambodian Cultural After School Program</li>
-      <li>15 high school students are participating in our Young Professionals Leadership Program</li>
-    </ul>
-  </div>
-  <div>
+<div class="container text-center py-5">
+  <h1 class="text-start pb-5">Youth Programs</h1>
+  <div class="row g-3">
+      <div class="container col-sm-12 col-md-6 col-lg-6">
+        <ul class="text-start">
+          <li>Over 100 students enrolled in our Rising Stars Summer Program</li>
+          <li>35 youth between the ages of 7-14 are part of our Cambodian Cultural After School Program</li>
+          <li>15 high school students are participating in our Young Professionals Leadership Program</li>
+        </ul>
+      </div >
+    
+      <div class="container col-sm-12 col-md-6 col-lg-6">
+        <img src="/static/youth-programs/rising-stars-summer-program/rising-stars-pic1.jpeg" alt="youth-program" class="img-fluid rounded">
+      </div>
+   </div>
+  <div class="container pt-5">
     {% include 'programs-services/youth-programs/youth-programs-carousel.html'%}
   </div>
   <div>
