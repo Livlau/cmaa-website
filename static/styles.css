@@ -93,10 +93,6 @@ section {
   opacity: 1; */
 }
 
-style {
-    --background: #F2F5F9;
-    --opacity: 1;
-}
 
 /* #latest-news {
       color: #2974FF;
@@ -296,4 +292,5 @@ ul.no-bullets {
    top: 0;
    width: 100%;
 }
+
 
