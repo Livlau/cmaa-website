@@ -75,18 +75,27 @@ section {
 }
 
 
-/* #programs {
-      color: #2974FF;
+#programs {
+/*     color: #2974FF;
+    background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%); */
+  background: #F2F5F9;
   
-  background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%);
-} */
+  opacity: 1;
+}
 
 
 #funders {
 /*     color: #2974FF; */
+  background-color: rgb(230, 236, 243);
   
-  background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%);
-  
+/*   background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%);
+  background: #F2F5F9;
+  opacity: 1; */
+}
+
+style {
+    --background: #F2F5F9;
+    --opacity: 1;
 }
 
 /* #latest-news {
