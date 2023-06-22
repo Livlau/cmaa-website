@@ -307,7 +307,7 @@ ul.no-bullets {
   text-decoration: none;
 }
 
-#daylight:hover {
+#daylight:link:hover {
   color: 0d6efd;
-  text-decoration: none;
+  text-decoration: underline;
 }
