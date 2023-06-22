@@ -302,4 +302,12 @@ ul.no-bullets {
    width: 100%;
 }
 
+#daylight:link, daylight:visited {
+  
+  text-decoration: none;
+  cursor: auto;
+}
 
+daylight:link:active, daylight:visited:active {
+  color: 0d6efd;
+}
