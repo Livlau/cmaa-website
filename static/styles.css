@@ -303,7 +303,7 @@ ul.no-bullets {
 }
 
 #daylight:link, daylight:visited {
-  
+  color: rgba(33, 37, 41, 0.75);
   text-decoration: none;
   cursor: auto;
 }
