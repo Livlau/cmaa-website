@@ -308,6 +308,6 @@ ul.no-bullets {
   cursor: auto;
 }
 
-#daylight:link:hover, #daylight:visited:active {
+#daylight:link:hover {
   color: 0d6efd;
 }
