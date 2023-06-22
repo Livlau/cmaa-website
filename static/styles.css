@@ -302,7 +302,7 @@ ul.no-bullets {
    width: 100%;
 }
 
-#daylight:link, #daylight:link:active {
+#daylight:link {
   color: rgba(33, 37, 41, 0.75);
   text-decoration: none;
 }
