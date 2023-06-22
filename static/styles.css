@@ -302,12 +302,12 @@ ul.no-bullets {
    width: 100%;
 }
 
-#daylight:link {
+#daylight:link, #daylight:link:active {
   color: rgba(33, 37, 41, 0.75);
   text-decoration: none;
 }
 
-#daylight:link:hover {
+#daylight:hover {
   color: 0d6efd;
   text-decoration: underline;
 }
